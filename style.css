@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, p, a {
+  color: #4b4b4b;
+  font-family: 'Rubik', sans-serif;
+}
+
+.background {
+  background-image: url('https://scontent.fbkk4-1.fna.fbcdn.net/v/t1.0-9/66630449_353363375339282_7034745527031824384_n.jpg?_nc_cat=107&_nc_eui2=AeGuje4qsb35ou7bPGpb2Jl9Hpr736Nb2op7Ga-GUApSOa0BcQsWTbV-4x7dxvmjkaSBciPBRIC1QetjwvY6jGJcyDi2-JyuC6HJ95mMu6bbAA&_nc_oc=AQlUL5rBQnpzwfdjCrV1S_NA-jmWg6fbtL-e3EdO9TVGffza8emBmUKcuboeKhW3fy0&_nc_ht=scontent.fbkk4-1.fna&oh=a2dbd86d2be16990bb5c0b59c0c51a88&oe=5DB1E323');
+  background-position: bottom left;
+  background-size: cover;
+}
+
+.container {
+  width: 33%;
+  padding: 64px;
+  background-color: rgba(255,255,255,0.9)
+}
+
+.title {
+  font-size: 48px; 
+  font-weight: 300;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400; 
+  margin-bottom: 72px;
+}
+
+.host-image {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.host {
+  font-size: 12px; 
+  font-weight: 600; 
+  margin-bottom: 64px;
+}
+
+.link {
+  font-size: 16px;
+  padding: 16px 24px;
+  border: 1px solid black;
+}
+
+.link:hover {
+  opacity: 0.3;
+}
+
+.link:active {
+  opacity: 0.8;
+}
+
+.link-icon {
+  margin-left: 8px
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
